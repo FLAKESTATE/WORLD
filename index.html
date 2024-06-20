@@ -6,7 +6,7 @@
     <title>Unity WebGL Player | I.A.M WORLD</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1" style="width: 1920px; height: 1080px; background: url('Build/0.0.1.jpg') center / cover"></canvas>
+    <canvas id="unity-canvas" width=1920 height=920 tabindex="-1" style="width: 1920px; height: 920px; background: #231F20"></canvas>
     <script src="Build/0.0.1.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/0.0.1.data.br",
-        frameworkUrl: "Build/0.0.1.framework.js.br",
-        codeUrl: "Build/0.0.1.wasm.br",
+        dataUrl: "Build/0.0.1.data",
+        frameworkUrl: "Build/0.0.1.framework.js",
+        codeUrl: "Build/0.0.1.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "FLAKESTATE, LLC",
         productName: "I.A.M WORLD",
